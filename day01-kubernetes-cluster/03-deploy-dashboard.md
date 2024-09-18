@@ -4,11 +4,6 @@ Deploy the dashboard for kubernetes
 
 ## Deploying the dashboard UI
 
-> Download the dashboard.yaml manifest
-```shell
-wget https://raw.githubusercontent.com/kbuor/Kubernetes/main/manifest/dashboard.yaml
-```
-
 > Create the workload and services
 ```shell
 kubectl apply -f dashboard.yaml
